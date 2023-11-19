@@ -25,3 +25,5 @@ for(let arr of number2DArr){
 
     }
 }
+
+// -> 2,3 차원 배열 선언 방법 

@@ -27,7 +27,7 @@ const yujin : IdolType = {
 
 
 /**
- * Interface
+ * Interface : 객체 타입 지정?
  *
  */
 

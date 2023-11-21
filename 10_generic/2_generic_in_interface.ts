@@ -28,8 +28,6 @@ interface DefaultInterface<T = string>{
     data : T[];
 }
 
-
-
 const cache3 : DefaultInterface = {
     data  : ['123','456'],
 }

@@ -33,7 +33,7 @@ interface PetType {
 
 type CompanyOrPet = PersonType & (CompanyType | PetType);
 
-// PersonType은 필수 , Company Or PetType 둘중 하나는 필수
+// PersonType은 필수 , Company Or PetType 중 하나는 필수
 const codefactory : CompanyOrPet = {
     
     // Person Type

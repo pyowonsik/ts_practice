@@ -4,9 +4,9 @@
 
 
 class PropertyTestParent{
-    publicProperty = 'public property';
-    protected protectedPropery = 'protected property';
-    private privateProperty = 'private property';
+    public publicProperty = 'public property';          // 전역
+    protected protectedPropery = 'protected property';  // 현재 또는 하위 클래스
+    private privateProperty = 'private property';       // 현재 클래스
 test(){
     this.privateProperty;
     this.protectedPropery;
@@ -29,3 +29,4 @@ class PropertyTestChild extends PropertyTestParent{
 const instance = new PropertyTestParent();
 
 instance.publicProperty;
+
